@@ -43,13 +43,23 @@ public class GUIplanta extends JFrame {
 		JButton Hola = new JButton("Saludo");
 		Hola.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hola desde el RamaDeRodrigo");
+				JOptionPane.showMessageDialog(null, "Hola desde el master");
 			}
 		});
-		Hola.setBounds(291, 219, 109, 20);
+		Hola.setBounds(149, 192, 109, 20);
 		contentPane.add(Hola);
 		
+		JButton Hola_1 = new JButton("SaludoR");
+		Hola_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde RamaDeRodrigo");
+			}
+		});
+		Hola_1.setBounds(363, 192, 109, 20);
+		contentPane.add(Hola_1);
 		
+		
+
 
 	}
 }
