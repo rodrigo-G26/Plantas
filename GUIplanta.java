@@ -1,4 +1,7 @@
 package Plantas;
+
+
+
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -49,6 +52,15 @@ public class GUIplanta extends JFrame {
 		});
 		Hola.setBounds(291, 219, 84, 20);
 		contentPane.add(Hola);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "hola desde la rama de efren");
+			}
+		});
+		btnNewButton.setBounds(440, 219, 85, 21);
+		contentPane.add(btnNewButton);
 		
 		
 
