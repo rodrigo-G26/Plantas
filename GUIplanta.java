@@ -42,15 +42,20 @@ public class GUIplanta extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+<<<<<<< HEAD
 		JButton Hola = new JButton("Rodrigo");
+=======
+		JButton Hola = new JButton("Saludo");
+>>>>>>> 54980af4f5eeeaa21050d2362d8460c4e67dabc1
 		Hola.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde el master");
 			}
 		});
-		Hola.setBounds(291, 219, 84, 20);
+		Hola.setBounds(149, 192, 109, 20);
 		contentPane.add(Hola);
 		
+<<<<<<< HEAD
 		JButton btnBerni = new JButton("Hola berni");
 		btnBerni.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -60,8 +65,19 @@ public class GUIplanta extends JFrame {
 		});
 		btnBerni.setBounds(287, 146, 88, 22);
 		contentPane.add(btnBerni);
+=======
+		JButton Hola_1 = new JButton("SaludoR");
+		Hola_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde RamaDeRodrigo");
+			}
+		});
+		Hola_1.setBounds(363, 192, 109, 20);
+		contentPane.add(Hola_1);
+>>>>>>> 54980af4f5eeeaa21050d2362d8460c4e67dabc1
 		
 		
+
 
 	}
 }
